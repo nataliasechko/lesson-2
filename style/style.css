@@ -45,7 +45,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background: url(/img/lamp.png);
+    background: url(./img/lamp.png);
     background-position: center;
     background-repeat: no-repeat;    
 }
@@ -56,7 +56,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background: url(/img/keyboard.png);
+    background: url(./img/keyboard.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -67,7 +67,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background-image: url(/img/lightning.png);
+    background-image: url(./img/lightning.png);
     background-position: center;
     background-repeat: no-repeat;
 }
