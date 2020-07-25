@@ -67,7 +67,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background-image: url(../img/lightning.png);
+    background-image: url(./img/lightning.png);
     background-position: center;
     background-repeat: no-repeat;
 }
