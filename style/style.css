@@ -1,16 +1,24 @@
-.container {    
-    width: 100%;
+*{
     margin: 0;
-    font-size: 0;
 }
+
+.wrapper {    
+    width: 100%;    
+    font-size: 0; 
+}
+/* Header
+ =================================================== */
+ header {
+    padding-top: 107px;
+ }
 
 .header__title {
     text-align: center;
     color: #212121;
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    padding-top: 107px;
+    font-weight: 400;    
+    text-transform: uppercase;
 }
 
 .header__line {
@@ -28,8 +36,10 @@
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 80px;
+    text-transform: capitalize;
 }
-
+/* Main content
+ =================================================== */
 main {
     text-align: center;
 }
@@ -46,7 +56,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background: url(../img/lamp.png);
+    background: url(/img/lamp.png);
     background-position: center;
     background-repeat: no-repeat;    
 }
@@ -57,7 +67,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background: url(../img/keyboard.png);
+    background: url(/img/keyboard.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -68,7 +78,7 @@ main {
     margin: auto;
     width: 70px;
     height: 70px;
-    background-image: url(../img/lightning.png);
+    background-image: url(/img/lightning.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -78,8 +88,9 @@ main {
     font-size: 20px;
     font-weight: 700;  
     color: #333333;
-    text-align: center;       
+    text-align: center;        
     margin-top: 29px;
+    text-transform: capitalize;
 }
   
 .column__text {
@@ -88,5 +99,8 @@ main {
     font-weight: 400;     
     font-size: 14px;   
     margin-top: 25px; 
-    text-align: center;  
+    text-align: center; 
+    text-transform: capitalize; 
 }
+/* Footer
+ =================================================== */
