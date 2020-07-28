@@ -8,10 +8,6 @@
 }
 /* Header
  =================================================== */
- header {
-    padding-top: 107px;
- }
-
 .header__title {
     text-align: center;
     color: #212121;
@@ -19,6 +15,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;    
     text-transform: uppercase;
+    padding-top: 107px;
 }
 
 .header__line {
